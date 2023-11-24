@@ -10,8 +10,5 @@ class Node:
     def node(self, attribute: str) -> None:
         self._node = attribute
 
-    # def __str__(self) -> str:
-    #     return self._node
-
     def __repr__(self) -> str:
         return self._node

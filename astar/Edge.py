@@ -1,4 +1,4 @@
-from .Node import Node
+from astar import Node
 
 
 class Edge:
